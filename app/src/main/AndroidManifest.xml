@@ -16,6 +16,7 @@
                 <!-- Ini diisi intent Main buat nandain activity ini main -->
                 <action android:name="android.intent.action.MAIN" />
 
+                <!-- diisi category Launcher biar langsung dijalankan -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
