@@ -26,12 +26,28 @@ class MainActivity : AppCompatActivity() {
 
         initComp()
 
-        sayBabyTextView.text = resources.getString(R.string.say_baby)
+        sayBabyTextView.text = resources.getString(R.string.sayBaby)
 
         sayBabyButton.setOnClickListener {
             Log.i("MWP", "SAY BABY CLICK OWH")
             val name = nameEditText.text.toString()
-            sayBabyTextView.text = "Hi Baby $name"
+            sayBabyTextView.text = resources.getString(R.string.sayBabyTextView, name)
+
+            Log.e("MWP", resources.getIntArray(R.array.numbers).joinToString(","))
+
+//            ganti warna di button
+            sayBabyButton.setBackgroundColor(resources.getColor(R.color.melodrama))
+
+            resources.getStringArray(R.array.names).forEach {
+                Log.e("MWP", it)
+            }
+
+//            membaca file di assets
+            val people = assets.open("people.json").bufferedReader().use { it.readText() }
+
+            Log.e("ASSETS MWP", people)
         }
+
+
     }
 }

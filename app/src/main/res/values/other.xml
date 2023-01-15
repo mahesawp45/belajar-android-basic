@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxPaging">100</integer>
+    <integer-array name="numbers">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </integer-array>
+    <bool name="isProduction">true</bool>
+    <color name="melodrama">#192048</color>
+</resources>

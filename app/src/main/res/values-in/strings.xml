@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Belajar Android Dasar</string>
+    <string name="sayBaby">Bilang Sayang</string>
+    <string name="nameEditText">Nama :</string>
+    <string name="sayBabyTextView">Hi Sayang %1$s</string>
+
+    <string-array name="names">
+        <item>Mahesa WP</item>
+        <item>Ardhaka</item>
+        <item>Lord</item>
+    </string-array>
+</resources>
