@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.belajarandroiddasar">
 
+<!--    ini artinya HP wajib ada finger print bru bisa install appnya dan ini mode Deklaratif krn langsung dibuat di manifest-->
+    <uses-feature android:name="android.hardware.fingerprint" android:required="true" />
+<!--    name itu buat manggil class activity -->
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
