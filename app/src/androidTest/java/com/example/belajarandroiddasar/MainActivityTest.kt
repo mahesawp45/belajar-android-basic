@@ -38,7 +38,7 @@ class MainActivityTest {
 
     @get:Rule
     var mainActivityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
-
+    
 
     @Test
     fun testSayBaby() {

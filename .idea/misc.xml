@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidBasic/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidBasic/app/src/main/res/layout/computer.xml" value="0.22" />
+        <entry key="..\:/AndroidBasic/app/src/main/res/layout/game.xml" value="0.16417272338606242" />
         <entry key="..\:/AndroidBasic/app/src/main/res/layout/hello_world.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidBasic/app/src/main/res/layout/result.xml" value="0.1" />
         <entry key="..\:/AndroidBasic/app/src/main/res/layout/say_baby_form.xml" value="0.1" />
+        <entry key="..\:/AndroidBasic/app/src/main/res/layout/you.xml" value="0.16417272338606242" />
       </map>
     </option>
   </component>

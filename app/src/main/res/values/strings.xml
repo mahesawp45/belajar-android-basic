@@ -4,6 +4,12 @@
     <string name="nameEditText">Name :</string>
     <string name="sayBabyTextView">Hi Baby %1$s</string>
 
+    <string name="computer" >COMPUTER:</string>
+    <string name="you">YOU:</string>
+    <string name="result">RESULT:</string>
+    <string name="scoreTextView">SCORE: %1$d</string>
+    <string name="highScoreTextView">HIGH SCORE: %1$d</string>
+
     <string-array name="names">
         <item>Mahesa WP</item>
         <item>Ardhaka</item>
